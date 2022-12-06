@@ -1,1 +1,1 @@
-(()=>{var t,e,n,i;t={list:[],add:function(){this.list.push()},remove:function(){this.list.pop()}},(n=document.getElementById("list"),i=document.getElementById("form"),console.log(i),e={listCt:n,formCt:i,renderList:function(t){n.append(t)},clearList:function(t){t.innerHTML=""}}).formCt.addEventListener("submit",(function(n){n.preventDefault();var i=form.elements.inputText.value;t.add(i),console.log(t.list),e.renderList(t.list)}))})();
+(()=>{var e;document.getElementById("list"),e=document.getElementById("form"),console.log(e)})();
